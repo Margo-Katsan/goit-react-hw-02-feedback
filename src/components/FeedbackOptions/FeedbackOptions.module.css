@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.option {
+  width: 100px;
+  height: 40px;
+
+  font-size: 20px;
+  text-transform: capitalize;
+
+  border: 0;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 30px 3px #e0b8c4;
+  box-shadow: 0px 2px 30px 3px #e0b8c4;
+
+  cursor: pointer;
+}
+.option:active {
+  -webkit-box-shadow: inset 0px 2px 30px 0px #e0b8c4;
+  box-shadow: inset 0px 2px 30px 0px #e0b8c4;
+}

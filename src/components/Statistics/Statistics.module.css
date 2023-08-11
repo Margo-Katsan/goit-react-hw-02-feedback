@@ -1,0 +1,22 @@
+.wrapper {
+  text-align: center;
+}
+.name {
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 20px;
+
+  border-bottom: 1px solid pink;
+}
+.name:not(:last-child) {
+  margin-bottom: 30px;
+}
+.number {
+  font-size: 20px;
+  font-weight: 700;
+}
